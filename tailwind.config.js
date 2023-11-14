@@ -5,7 +5,7 @@ tailwind.config = {
         center:true,
        },
       colors: {
-        navbarbg: '#542f2beb',
+        navbarbg: '#472522ed',
       }
     }
   }
