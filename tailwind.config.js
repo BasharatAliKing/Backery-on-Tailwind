@@ -1,11 +1,11 @@
 tailwind.config = {
   theme: {
     extend: {
-      container:{
-        center:true
-      },
+       container:{
+        center:true,
+       },
       colors: {
-        navbarbg: '#200c0ceb',
+        navbarbg: '#3b1d1bd6',
       }
     }
   }

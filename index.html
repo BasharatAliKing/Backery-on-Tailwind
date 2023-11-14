@@ -15,7 +15,7 @@
 <body>
     <!-- Responcive-->
     <ul class="navbar absolute top-16  left-0 bg-navbarbg  text-center  md:hidden  h-screen w-full text-amber-500 p-5">
-        
+
         <li><a class="text-amber-500  text-xl mt-5  hover:text-amber-500 font-medium active:text-amber-500"
                 href="">Home</a></li>
         <li><a class="text-amber-500 text-xl mt-5 hover:text-amber-500 font-medium " href="">Servies</a></li>
@@ -25,8 +25,8 @@
         <li><a class="text-amber-500 text-xl mt-5 hover:text-amber-500 font-medium " href="">Contact</a></li>
     </ul>
     <!--Home page section-->
-    <section class=" bg-no-repeat h-screen w-full " style="background-image: url(./assets/images/hero-banner.jpg);">
-        <nav class="nav container px-2 py-2  sm:my-0      flex items-center">
+    <section class=" bg-no-repeat h-screen w-full  " style="background-image: url(./assets/images/hero-banner.jpg);">
+        <nav class="nav container px-2 py-2  sm:my-0 flex items-center">
             <div class="logo"><img src="./assets/images/logo.png" alt=""></div>
             <ul class="hidden md:flex  mx-auto gap-x-6 ">
                 <li><a class="text-white text-xl hover:text-amber-500 font-medium active:text-amber-500"
@@ -37,19 +37,23 @@
                 <li><a class="text-white text-xl hover:text-amber-500 font-medium " href="">Blog</a></li>
                 <li><a class="text-white text-xl hover:text-amber-500 font-medium " href="">Contact</a></li>
             </ul>
-            <div class="md:hidden ml-auto z-20"><ion-icon onclick="clickBtn(this)" name="menu" class="text-white text-3xl"></ion-icon></div>
+            <div class="md:hidden ml-auto z-20"><ion-icon onclick="clickBtn(this)" name="menu"
+                    class="text-white text-3xl"></ion-icon></div>
         </nav>
         <div class="container px-2 flex flex-col gap-y-5 h-3/4 justify-center">
             <h1 class="text-white font-bold font-sans text-3xl lg:text-5xl ">We Bake With <br> Passion</h1>
-            <p class="text-white text-xl w-3/4 md:w-1/3">Volutpat sit amet leo id efficitur mattis turpis dunec bibendum est proin
+            <p class="text-white text-xl w-3/4 md:w-1/3">Volutpat sit amet leo id efficitur mattis turpis dunec bibendum
+                est proin
                 ligula nisl.</p>
-            <button class="bg-amber-500  text-white uppercase rounded-3xl mr-auto font-medium hover:bg-amber-600 px-3 py-2 text-base  md:px-4 md:py-2 md:text-lg">Read More</button>
+            <button
+                class="bg-amber-500  text-white uppercase rounded-3xl mr-auto font-medium hover:bg-amber-600 px-3 py-2 text-base  md:px-4 md:py-2 md:text-lg">Read
+                More</button>
 
 
         </div>
     </section>
-      <!-- Cardsss-->
-      <section class="grid grid-cols-1 sm:grid-cols-2 lg:justify-items-center lg:grid-cols-4">
+    <!-- Cardsss-->
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:justify-items-center lg:grid-cols-4">
         <!--Card-1-->
         <div
             class="flex flex-col  text-center lg:py-16 lg:px-6 mt-3 hover:bg-amber-100 sm:border-r-2 border-amber-100 ">
@@ -88,28 +92,30 @@
     </section>
     <!--Selected section-->
     <section class=" bg-amber-100">
-        <div class="container flex flex-col px-2 sm:px-0 md:px-10 md:flex-row lg:flex-row  ">
-        <div class="text-center md:w-1/2 md:m-auto lg:w-1/2"><img src="./assets/images/section2-img.png" class="w-full"
-                width="100%" alt=""></div>
-        <div class="  flex flex-col py-20 md:w-1/2 lg:w-1/2 justify-center gap-y-7 lg:px-10 bg-no-repeat bg-right-bottom"
-            style="background-image: url(./assets/images/section2-de.png);">
-            <h2 class="text-3xl lg:text-5xl font-serif font-medium">Selected wheat and creative recipes make wonders
-            </h2>
-            <p class="text-sm lg:text-lg  text-amber-900">Vivamus pharetra sapien libero, id aliquam masisa dictum ac.
-                Aenean id
-                accumsan justo. Sed dapibid augue
-                eu hendrerit. Crais sed nisi ut turpis sagittisy luctus. Etiam nulla purus pulvinar et eros ut pretium
-                euismod nibhed libero leo ornare.</p>
-            <button
-                class="text-white mt-5 py-2 px-3 text-sm bg-amber-400 lg:text-lg font-medium uppercase lg:px-6 lg:py-3 rounded-3xl mr-auto hover:bg-amber-500">Read
-                More</button>
+        <div class="container flex flex-col px-2 sm:px-0  md:flex-row lg:flex-row  ">
+            <div class="text-center md:w-1/2 md:mt-auto lg:w-1/2"><img src="./assets/images/section2-img.png"
+                    class="w-full" width="100%" alt=""></div>
+            <div class="  flex flex-col md:w-1/2  justify-center gap-y-7 lg:px-10 bg-no-repeat bg-right-bottom"
+                style="background-image: url(./assets/images/section2-de.png);">
+                <h2 class="text-3xl lg:text-5xl font-serif font-medium">Selected wheat and creative recipes make wonders
+                </h2>
+                <p class="text-sm lg:text-lg  text-amber-900">Vivamus pharetra sapien libero, id aliquam masisa dictum
+                    ac.
+                    Aenean id
+                    accumsan justo. Sed dapibid augue
+                    eu hendrerit. Crais sed nisi ut turpis sagittisy luctus. Etiam nulla purus pulvinar et eros ut
+                    pretium
+                    euismod nibhed libero leo ornare.</p>
+                <button
+                    class="text-white mt-5 py-2 px-3 text-sm bg-amber-400 lg:text-lg font-medium uppercase lg:px-6 lg:py-3 rounded-3xl mr-auto hover:bg-amber-500">Read
+                    More</button>
 
+            </div>
         </div>
-    </div>
     </section>
     <!-- Crusty section start here-->
     <section>
-        <h1 class="text-3xl text-center  lg:text-4xl font-semibold font-serif lg:w-1/4 mx-auto my-10 leading-tight">
+        <h1 class="text-3xl text-center  lg:text-4xl font-semibold font-serif lg:w-1/4 mx-auto  my-10 leading-tight">
             Discover Crusty
             Bread and Cake</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
@@ -180,21 +186,27 @@
         </div>
     </section>
     <!--Crusty Bread Section starts here-->
-    <section
-        class=" flex flex-col px-5 py-10 md:flex-row md:px-10  lg:flex-row bg-no-repeat bg-right-bottom bg-amber-100 w-full  lg:px-32 lg:pt-10">
-        <div style="background-image: url(./assets/images/section4-de1.png);"
-            class="bg-no-repeat mx-auto md:w-1/2  bg-left-top "><img src="./assets/images/section4-img.png" alt=""></div>
-        <div class="mt-5  md:w-1/2 md:ml-5 lg:w-1/2 flex flex-col  justify-center gap-y-3 lg:ml-10">
-            <h2 class="text-3xl lg:text-5xl font-serif font-medium">Make Crusty Bread by Soulful Bakers With Love</h2>
-            <p class="text-sm lg:text-lg  text-amber-900">Vivamus pharetra sapien libero, id aliquam masisa dictum ac.
-                Aenean id
-                Cras ac fermentu purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt felise
-                nonte nulla efficitur congue. Phasellus venenatis viverra nisi vitae susmauris euismod at. Etiam
-                dignissim ultricies tellus, at molesti ipsum posuere vel. Nam fermentum sagittis tellus egetistique.
-                Nunc consequat telus eget leo accumsan, eu luctus justo rutrum.</p>
-            <button
-                class="py-2 px-3 text-sm mt-5 text-white  bg-amber-400 lg:mt-10 lg:text-lg font-medium uppercase lg:px-6 lg:py-3 rounded-3xl mr-auto hover:bg-amber-500">Read
-                More</button>
+    <section class="bg-amber-100 ">
+        <div
+            class="container flex flex-col px-5 py-10 md:flex-row md:px-0 md:py-0 md:pt-10  md:flex-row bg-no-repeat bg-right-bottom ">
+            <div style="background-image: url(./assets/images/section4-de1.png);"
+                class="bg-no-repeat mx-auto md:w-1/2  bg-left-top "><img src="./assets/images/section4-img.png" alt="">
+            </div>
+            <div class="mt-5  md:w-1/2 md:pl-5 md:mt-0 lg:w-1/2 flex flex-col  justify-center gap-y-3 lg:pl-10">
+                <h2 class="text-3xl lg:text-5xl font-serif font-medium">Make Crusty Bread by Soulful Bakers With Love
+                </h2>
+                <p class="text-sm lg:text-lg  text-amber-900">Vivamus pharetra sapien libero, id aliquam masisa dictum
+                    ac.
+                    Aenean id
+                    Cras ac fermentu purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt
+                    felise
+                    nonte nulla efficitur congue. Phasellus venenatis viverra nisi vitae susmauris euismod at. Etiam
+                    dignissim ultricies tellus, at molesti ipsum posuere vel. Nam fermentum sagittis tellus egetistique.
+                    Nunc consequat telus eget leo accumsan, eu luctus justo rutrum.</p>
+                <button
+                    class="py-2 px-3 text-sm mt-5 text-white  bg-amber-400 lg:mt-10 lg:text-lg font-medium uppercase lg:px-6 lg:py-3 rounded-3xl mr-auto hover:bg-amber-500">Read
+                    More</button>
+            </div>
         </div>
     </section>
     <!--Organic Compound section starts here-->
@@ -227,7 +239,7 @@
 
     </section>
     <!--Why choose us section starts here-->
-    <section class="flex flex-col pt-10 md:pt-0 md:flex-row lg:flex-row lg:h-screen  ">
+    <section class="flex flex-col pt-10  md:pt-0 md:flex-row lg:flex-row   ">
         <div class="flex flex-col px-5 md:w-1/2  justify-center lg:w-1/2 lg:px-28 bg-no-repeat bg-right-bottom"
             style="background-image: url(./assets/images/section6-de.png);">
             <h3 class="text-amber-600 text-lg ">Why Choose Us</h3>
@@ -242,21 +254,21 @@
                 More</button>
         </div>
         <div
-            class="grid grid-cols-1 sm:grid-cols-2 px-5 py-10 mt-5 md:gap-x-3 gap-y-4  lg:grid-cols-2  lg:w-1/2 lg:justify-items-start bg-amber-500 lg:px-24 lg:py-16">
-            <div class="border m-auto p-10 md:p-2 lg:p-10  bg-white rounded-lg text-center max-w-sm">
-                <img src="./assets/images/service-icon1.png" alt="">
+            class="grid grid-cols-1 sm:grid-cols-2  py-10 mt-5 md:mt-0 md:px-24  gap-y-10  lg:grid-cols-2   lg:w-1/2  bg-amber-500 ">
+            <div class=" p-10 md:p-2 lg:p-10  bg-white rounded-lg flex flex-col mx-auto text-center">
+                <img src="./assets/images/service-icon1.png"  alt="">
                 <div class="text-2xl font-medium mt-2">Birthday</div>
             </div>
-            <div class="border m-auto p-10 md:p-2 lg:p-10  bg-white rounded-lg text-center max-w-sm">
-                <img src="./assets/images/service-icon2.png" alt="">
+            <div class=" p-10 md:p-2 lg:p-10  bg-white rounded-lg flex flex-col mx-auto text-center">
+                <img src="./assets/images/service-icon2.png"  alt="">
                 <div class="text-2xl font-medium mt-2">Presents</div>
             </div>
-            <div class="border m-auto p-10 md:p-2 lg:p-10  bg-white rounded-lg text-center max-w-sm">
-                <img src="./assets/images/service-icon3.png" alt="">
+            <div class=" p-10 md:p-2 lg:p-10  bg-white rounded-lg flex flex-col mx-auto text-center">
+                <img src="./assets/images/service-icon3.png"  alt="">
                 <div class="text-2xl font-medium mt-2">Weddings</div>
             </div>
-            <div class="border m-auto p-10 md:p-2 lg:p-10  bg-white rounded-lg text-center max-w-sm">
-                <img src="./assets/images/service-icon4.png" alt="">
+            <div class=" p-10 md:p-2 lg:p-10  bg-white rounded-lg flex flex-col mx-auto text-center">
+                <img src="./assets/images/service-icon4.png"  alt="">
                 <div class="text-2xl font-medium mt-2">Parties</div>
             </div>
         </div>
@@ -282,7 +294,7 @@
     </section>
     <!--We love bread section start here-->
     <section class="flex flex-col my-10 md:my-0 md:flex-row">
-        <div class="flex flex-col py-2 px-5 gap-y-2 justify-center md:w-1/2 lg:py-32 lg:px-28 bg-no-repeat bg-right-bottom"
+        <div class="flex flex-col py-2 px-5 gap-y-2 justify-center md:px-0 md:py-0 md:w-1/2  lg:px-28 bg-no-repeat bg-right-bottom"
             style="background-image: url(./assets/images/section8-de.png);">
             <h3 class="text-amber-600 text-lg ">We Love Bread</h3>
             <h1 class="text-3xl lg:text-4xl font-serif font-bold leading-tight ">Make Crusty Cake by Unique Bakery</h1>
@@ -294,10 +306,11 @@
                 class="bg-amber-400  text-white mt-10 py-2 px-3 text-sm  font-medium uppercase lg:text-lg lg:px-6 lg:py-3 rounded-3xl mr-auto hover:bg-amber-500">Read
                 More</button>
         </div>
-        <div class=" md:w-1/2 bg-amber-100 p-10 lg:pt-24 "> <img src="./assets/images/section8-img.png" alt=""></div>
+        <div class=" md:w-1/2 bg-amber-100 p-10  "> <img src="./assets/images/section8-img.png" alt=""></div>
     </section>
     <!--Meet Out backery Team section start here-->
-    <section class="bg-amber-200 px-20 py-20 ">
+    <section class="bg-amber-200  ">
+        <div class="container py-10">
         <h1 class="text-2xl  lg:w-1/4 mx-auto lg:text-3xl font-serif font-semibold text-center tracking-wide">Meet Our
             Bakery Team
             Member</h1>
@@ -331,6 +344,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <!--backery shops -->
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 text-center  bg-amber-950 ">
@@ -485,7 +499,7 @@
         <footer class="text-center lg:text-start">&copy; Copyright 2023 Bakery Blocks. All Rights Reserved</footer>
         <div class=" text-center lg:ml-auto">Designed by BD King</>
     </section>
-   <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/index.js"></script>
 </body>
 
 </html>
