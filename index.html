@@ -25,7 +25,7 @@
         <li><a class="text-amber-500 text-xl mt-5 hover:text-amber-500 font-medium " href="">Contact</a></li>
     </ul>
     <!--Home page section-->
-    <section class=" bg-no-repeat h-screen w-full  " style="background-image: url(./assets/images/hero-banner.jpg);">
+    <section class=" bg-no-repeat h-screen bg-cover  " style="background-image: url(./assets/images/hero-banner.jpg);">
         <nav class="nav container px-2 py-2  sm:my-0 flex items-center">
             <div class="logo"><img src="./assets/images/logo.png" alt=""></div>
             <ul class="hidden md:flex  mx-auto gap-x-6 ">
@@ -316,28 +316,28 @@
             Member</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-4 gap-y-5 lg:grid-cols-4 justify-items-center mt-10 ">
             <div class="bg-white rounded-2xl ">
-                <img class="p-3" src="./assets/images/team-img1.jpg" alt="">
+                <img class="p-3 pb-0" src="./assets/images/team-img1.jpg" alt="">
                 <div class="bg-amber-500 p-5 text-white text-center rounded-b-2xl">
                     <h3 class="text-2xl font-serif">Peter Gutton</h3>
                     <p class="text-lg">Baker</p>
                 </div>
             </div>
             <div class="bg-white rounded-2xl ">
-                <img class="p-3" src="./assets/images/team-img2.jpg" alt="">
+                <img class="p-3 pb-0" src="./assets/images/team-img2.jpg" alt="">
                 <div class="bg-amber-500 p-5 text-white text-center rounded-b-2xl">
                     <h3 class="text-2xl font-serif">Peter Gutton</h3>
                     <p class="text-lg">Baker</p>
                 </div>
             </div>
             <div class="bg-white rounded-2xl ">
-                <img class="p-3" src="./assets/images/team-img3.jpg" alt="">
+                <img class="p-3 pb-0" src="./assets/images/team-img3.jpg" alt="">
                 <div class="bg-amber-500 p-5 text-white text-center rounded-b-2xl">
                     <h3 class="text-2xl font-serif">Peter Gutton</h3>
                     <p class="text-lg">Baker</p>
                 </div>
             </div>
             <div class="bg-white rounded-2xl ">
-                <img class="p-3" src="./assets/images/team-img4.jpg" alt="">
+                <img class="p-3 pb-0" src="./assets/images/team-img4.jpg" alt="">
                 <div class="bg-amber-500 p-5 text-white text-center rounded-b-2xl">
                     <h3 class="text-2xl font-serif">Peter Gutton</h3>
                     <p class="text-lg">Baker</p>
@@ -363,19 +363,22 @@
             <h1 class="text-4xl lg:text-7xl font-medium text-white">12</h1>
             <h4 class="text-xl lg:text-2xl text-white font-serif ">Experience</h4>
         </div>
-        <div class="border-r-2 p-10 flex flex-col gap-4 text-center ">
+        <div class=" p-10 flex flex-col gap-4 text-center ">
             <img src="./assets/images/stats-icon4.png" class="mx-auto" width="50%" alt="">
             <h1 class="text-4xl lg:text-7xl font-medium text-white">75</h1>
             <h4 class="text-xl lg:text-2xl text-white font-serif ">Creative Bakers</h4>
         </div>
     </section>
     <!--Customer Reviews-->
-    <section class="px-5 py-10 lg:p-20 bg-slate-100">
+    <section class="bg-slate-100">
+        <div class="container py-10 flex flex-col gap-y-12">
+      <div class="flex flex-col">
         <h2 class="text-xl lg:text-2xl text-amber-400 text-center font-serif">Customer reviews</h2>
-        <h1 class="text-3xl lg:text-5xl text-center font-serif font-semibold mt-4">Testimoniols</h1>
-        <div class="flex flex-col md:flex-row gap-x-10 mt-10">
+        <h1 class="text-3xl lg:text-5xl text-center font-serif font-semibold ">Testimoniols</h1>
+      </div>
+        <div class="flex flex-col md:flex-row gap-x-10">
             <!--Card-1-->
-            <div class=" mt-5 lg:w-1/2 flex flex-col bg-white p-12 items-start gap-7 rounded-xl">
+            <div class=" mt-5 lg:w-1/2 flex flex-col md:mt-0 bg-white p-12 items-start gap-7 rounded-xl">
                 <div class="flex justify-center items-center">
                     <img src="./assets/images/user-img.png" alt="">
                     <div class="ml-4">
@@ -388,7 +391,7 @@
                     ligulanisl, mattiss ollicit udin and magnaet, rhon venena ipsum.</div>
             </div>
             <!--Card-2-->
-            <div class=" mt-5  lg:w-1/2 flex flex-col bg-white p-12 items-start gap-7 rounded-xl">
+            <div class=" mt-5  lg:w-1/2 flex flex-col md:mt-0 bg-white p-12 items-start gap-7 rounded-xl">
                 <div class="flex justify-center items-center">
                     <img src="./assets/images/user-img.png" alt="">
                     <div class="ml-4">
@@ -402,16 +405,19 @@
             </div>
 
         </div>
+    </div>
     </section>
     <!--whats going on customer reviews section start here-->
-    <section class="p-5 lg:p-20  ">
-        <h3 class="text-xl lg:text-2xl text-amber-400 text-center font-serif">Customer reviews</h3>
-        <h1 class="text-3xl lg:text-5xl mx-auto text-center font-serif font-semibold mt-4 lg:w-1/2 px-5">What's Going On
+    <section class="container py-10 flex flex-col gap-y-10">
+       <div class="flex flex-col gap-y-4">
+         <h3 class="text-xl lg:text-2xl text-amber-400 text-center font-serif">Customer reviews</h3>
+        <h1 class="text-3xl lg:text-5xl mx-auto text-center font-serif font-semibold  lg:w-1/2 px-5 md:px-0">What's Going On
             In Our Blog?
         </h1>
+       </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
             <!--Card-1-->
-            <div class="shadow-lg rounded-lg mt-10 ">
+            <div class="shadow-lg rounded-lg  ">
                 <img src="./assets/images/post-img1.jpg" width="100%" alt="">
                 <div class="p-8">
                     <h2 class="text-xl font-medium"> Lorem ipsum dolor sit amet consectetur</h2>
@@ -420,7 +426,7 @@
                 </div>
             </div>
             <!--Card-2-->
-            <div class="shadow-lg rounded-lg mt-10 ">
+            <div class="shadow-lg rounded-lg ">
                 <img src="./assets/images/post-img2.jpg" width="100%" alt="">
                 <div class="p-8">
                     <h2 class="text-xl font-medium"> Lorem ipsum dolor sit amet consectetur</h2>
@@ -429,7 +435,7 @@
                 </div>
             </div>
             <!--Card-3-->
-            <div class="shadow-lg rounded-lg mt-10 ">
+            <div class="shadow-lg rounded-lg  ">
                 <img src="./assets/images/post-img3.jpg" width="100%" alt="">
                 <div class="p-8">
                     <h2 class="text-xl font-medium"> Lorem ipsum dolor sit amet consectetur</h2>
@@ -440,7 +446,8 @@
         </div>
     </section>
     <!--Footer section starts from here-->
-    <section class="grid grid-cols-1 sm:grid-cols-2 px-5 py-10 lg:grid-cols-3 lg:p-20 text-center bg-amber-100">
+    <section class="  bg-amber-100">
+      <div class="container grid grid-cols-1 sm:grid-cols-2 px-5 py-10 md:px-0  lg:grid-cols-3  text-center">
         <div class="mt-5">
             <h1 class="text-3xl font-serif font-medium">Contact Us</h1>
             <div class="text-sm mt-5">Street 23852, Tempor Donec Ultrice Tellus.</div>
@@ -490,6 +497,7 @@
                 <img src="./assets/images/340501291_956232552491147_4396067240539422653_nthumb.jpg" alt="">
                 <img src="./assets/images/26073806_101875010624646_7434790570666491904_nthumb.jpg" alt="">
             </div>
+        </div>
         </div>
     </section>
     <div class="bg-amber-100">
