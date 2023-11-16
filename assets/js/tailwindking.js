@@ -1,6 +1,10 @@
 tailwind.config = {
     theme: {
       extend: {
+        backgroundImage: {
+          'bgOne': "url('./images/hero-banner.jpg)",
+          'footer-texture': "url('/img/footer-texture.png')",
+        },
          container:{
           padding: {
             DEFAULT: '1rem',
